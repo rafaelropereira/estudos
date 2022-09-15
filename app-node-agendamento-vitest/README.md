@@ -1,6 +1,6 @@
 ## Motivação para o projeto
 
-Replicar video tutorial do canal do YouTube Rocketseat que pode ser acessado [aqui](https://www.youtube.com/watch?v=jBOLRzjEERk&t). Além de aplicar todos os conceitos na prática.
+Replicar o video tutorial da Rocketseat que pode ser acessado [aqui](https://www.youtube.com/watch?v=jBOLRzjEERk&t), e também realizar a tradução do código para o português (pt-BR) - facilitando o entendimento para quem não domina o inglês.
 </br>
 </br>
 
