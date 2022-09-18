@@ -1,14 +1,19 @@
 export interface AgendamentoProps {
   cliente: string;
-  comecaEm: Date;
+  iniciaEm: Date;
   terminaEm: Date;
 }
 
 export class Agendamento {
+
   private props: AgendamentoProps;
 
   constructor(props: AgendamentoProps) {
     this.props = props;
+
+    if (this.props.terminaEm <= this.props.iniciaEm) {
+      throw new Error('Data de termino não pode ser menor que a data de início');
+    }
   }
 
   get cliente() {
@@ -16,7 +21,7 @@ export class Agendamento {
   }
 
   get comecaEm() {
-    return this.props.comecaEm;
+    return this.props.iniciaEm;
   }
 
   get terminaEm() {
