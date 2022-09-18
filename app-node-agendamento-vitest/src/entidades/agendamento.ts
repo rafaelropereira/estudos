@@ -20,7 +20,7 @@ export class Agendamento {
     return this.props.cliente;
   }
 
-  get comecaEm() {
+  get iniciaEm() {
     return this.props.iniciaEm;
   }
 
